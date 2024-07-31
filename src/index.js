@@ -7,12 +7,13 @@ import reportWebVitals from "./reportWebVitals"; // reportWebVitals가 실제로
 import Library from "./chapter_03/Library"; // 파일 경로가 올바른지 확인
 import Clock from "./chapter_04/Clock"; // 파일 경로가 올바른지 확인
 import CommentList from "./chapter_05/CommentList"; // 파일 경로가 올바른지 확인
+import Accommondate from "./chapter_07/Accommondate";
 
 // createRoot를 사용하여 root를 생성합니다.
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <Accommondate />
   </React.StrictMode>
 );
 
