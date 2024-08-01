@@ -8,12 +8,14 @@ import Library from "./chapter_03/Library"; // 파일 경로가 올바른지 확
 import Clock from "./chapter_04/Clock"; // 파일 경로가 올바른지 확인
 import CommentList from "./chapter_05/CommentList"; // 파일 경로가 올바른지 확인
 import Accommondate from "./chapter_07/Accommondate";
+import ConfirmButton from "./chapter_08/ConfirmButton";
+import LandingPage from "./chapter_09/LandingPage";
 
 // createRoot를 사용하여 root를 생성합니다.
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Accommondate />
+    <LandingPage />
   </React.StrictMode>
 );
 
