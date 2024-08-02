@@ -11,12 +11,13 @@ import Accommondate from "./chapter_07/Accommondate";
 import ConfirmButton from "./chapter_08/ConfirmButton";
 import LandingPage from "./chapter_09/LandingPage";
 import AttendenceBook from "./chpater_10/AttendenceBook";
+import SignUp from "./chapter_11/SIgnUo";
 
 // createRoot를 사용하여 root를 생성합니다.
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AttendenceBook />
+    <SignUp />
   </React.StrictMode>
 );
 
