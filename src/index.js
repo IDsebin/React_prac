@@ -14,12 +14,13 @@ import AttendenceBook from "./chpater_10/AttendenceBook";
 import SignUp from "./chapter_11/SIgnUo";
 import TemperatureInput from "./chapter_12/TemperatureInput";
 import Calculator from "./chapter_12/Calculator";
+import ProfileCard from "./chapter_13/ProfileCard";
 
 // createRoot를 사용하여 root를 생성합니다.
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <ProfileCard />
   </React.StrictMode>
 );
 
