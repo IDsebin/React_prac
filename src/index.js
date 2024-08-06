@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals"; // reportWebVitals가 실제로 존재하는지 확인
 
 import Library from "./chapter_03/Library"; // 파일 경로가 올바른지 확인
@@ -15,14 +14,14 @@ import SignUp from "./chapter_11/SIgnUo";
 import TemperatureInput from "./chapter_12/TemperatureInput";
 import Calculator from "./chapter_12/Calculator";
 import ProfileCard from "./chapter_13/ProfileCard";
-import MainPage from "./chpater_15/MainPage";
 import Blocks from "./chpater_15/Blocks";
+import App from "./App";
 
 // createRoot를 사용하여 root를 생성합니다.
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Blocks/>
+    <App/>
   </React.StrictMode>
 );
 
