@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-    width: calc(100% -32px);
-    padding: 16px;
+    width: calc(100% - 32px);
+    padding: 8px 16px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -12,21 +12,22 @@ const Wrapper = styled.div`
     border-radius: 8px;
     cursor: pointer;
     background: white;
-    :hover{
-        background: lightgray;
+    :hover {
+        background: lightgrey;
     }
 `;
 
 const ContentText = styled.p`
-    font-size: 14px;
+    font-size: 16px;
+    white-space: pre-wrap;
 `;
 
 function CommentListItem(props) {
-    const {commnet} = props; 
+    const { comment } = props;
 
-    return(
+    return (
         <Wrapper>
-            <ContentText>{commnet.content}</ContentText>
+            <ContentText>{comment.content}</ContentText>
         </Wrapper>
     );
 }
